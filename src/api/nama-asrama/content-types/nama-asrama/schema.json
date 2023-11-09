@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nama_asramas",
+  "info": {
+    "singularName": "nama-asrama",
+    "pluralName": "nama-asramas",
+    "displayName": "Nama Asrama",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "richtext"
+    },
+    "urlWhatsApp": {
+      "type": "text"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "Judul"
+    },
+    "urlPendaftaran": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Kategori": {
+      "type": "enumeration",
+      "enum": [
+        "TKQ MURNI",
+        "TKQ MI",
+        "SMP SMA"
+      ]
+    },
+    "Slide": {
+      "displayName": "Image",
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.image"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

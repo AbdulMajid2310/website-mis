@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_sections_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Teks": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Url": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "my-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "homepage": "https://admin.misnihayatulamal.sch.id",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@sklinet/strapi-plugin-video-field": "^1.0.5",
+    "@strapi/plugin-i18n": "4.11.4",
+    "@strapi/plugin-users-permissions": "4.11.4",
+    "@strapi/strapi": "4.11.4",
+    "mysql": "2.18.1",
+    "strapi-plugin-entity-relationship-chart": "^4.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c08be7ea-89f3-4ee4-93b7-ea180b04054b"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

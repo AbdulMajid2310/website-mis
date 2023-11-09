@@ -1,0 +1,34 @@
+{
+  "kind": "singleType",
+  "collectionName": "berandas",
+  "info": {
+    "singularName": "beranda",
+    "pluralName": "berandas",
+    "displayName": "Beranda",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Layanan": {
+      "type": "component",
+      "repeatable": true,
+      "component": "halaman.dashboard"
+    },
+    "artikels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::artikel.artikel"
+    },
+    "paqs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::paq.paq"
+    },
+    "Teks": {
+      "type": "string"
+    }
+  }
+}

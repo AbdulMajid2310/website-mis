@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "sejarah_pondoks",
+  "info": {
+    "singularName": "sejarah-pondok",
+    "pluralName": "sejarah-pondoks",
+    "displayName": "Sejarah Pondok",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "MISI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.deskripsi"
+    },
+    "VISI": {
+      "type": "text"
+    },
+    "KategoriAsrama": {
+      "displayName": "Kategori",
+      "type": "component",
+      "repeatable": true,
+      "component": "halaman.kategori"
+    },
+    "Dashboard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.pondok"
+    }
+  }
+}

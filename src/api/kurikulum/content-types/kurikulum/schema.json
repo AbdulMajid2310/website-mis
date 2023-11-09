@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kurikulums",
+  "info": {
+    "singularName": "kurikulum",
+    "pluralName": "kurikulums",
+    "displayName": "Kurikulum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Judul": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Paragraf": {
+      "displayName": "Deskripsi2",
+      "type": "component",
+      "repeatable": true,
+      "component": "halaman.deskripsi2"
+    }
+  }
+}

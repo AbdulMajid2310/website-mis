@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_dashboard_deskripsis",
+  "info": {
+    "displayName": "Deskripsi",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Paragraf": {
+      "type": "richtext"
+    }
+  }
+}

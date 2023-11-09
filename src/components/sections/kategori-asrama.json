@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_kategori_asramas",
+  "info": {
+    "displayName": "KategoriAsrama",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nama_asramas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nama-asrama.nama-asrama"
+    }
+  }
+}

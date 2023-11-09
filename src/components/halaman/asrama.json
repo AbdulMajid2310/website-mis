@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_halaman_asramas",
+  "info": {
+    "displayName": "Asrama"
+  },
+  "options": {},
+  "attributes": {
+    "Kategori": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "nama_asramas": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::nama-asrama.nama-asrama"
+    }
+  }
+}

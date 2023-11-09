@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "from_chats",
+  "info": {
+    "singularName": "from-chat",
+    "pluralName": "from-chats",
+    "displayName": "From Chat",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nama_lengkap": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Pesan": {
+      "type": "richtext"
+    },
+    "No_Telepon": {
+      "type": "string"
+    }
+  }
+}

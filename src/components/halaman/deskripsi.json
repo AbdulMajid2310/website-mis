@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_halaman_deskripsis",
+  "info": {
+    "displayName": "Deskripsi"
+  },
+  "options": {},
+  "attributes": {
+    "Teks": {
+      "type": "text"
+    }
+  }
+}

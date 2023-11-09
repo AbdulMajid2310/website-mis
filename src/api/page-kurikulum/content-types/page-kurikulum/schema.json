@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_kurikulums",
+  "info": {
+    "singularName": "page-kurikulum",
+    "pluralName": "page-kurikulums",
+    "displayName": "PageKurikulum",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.deskripsi"
+    },
+    "kurikulums": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kurikulum.kurikulum"
+    }
+  }
+}

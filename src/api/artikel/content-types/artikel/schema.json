@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "artikels",
+  "info": {
+    "singularName": "artikel",
+    "pluralName": "artikels",
+    "displayName": "Artikel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judulArtikel": {
+      "type": "string"
+    },
+    "Slug": {
+      "type": "uid",
+      "targetField": "judulArtikel"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "UpdateArtikel": {
+      "type": "string"
+    },
+    "Deskripsi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.deskripsi"
+    }
+  }
+}

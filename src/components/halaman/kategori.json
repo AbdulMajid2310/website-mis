@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_halaman_kategoris",
+  "info": {
+    "displayName": "Kategori",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Kategori": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Deskripsi": {
+      "type": "component",
+      "repeatable": true,
+      "component": "dashboard.deskripsi"
+    }
+  }
+}

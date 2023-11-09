@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_halaman_juduls",
+  "info": {
+    "displayName": "Judul"
+  },
+  "options": {},
+  "attributes": {
+    "Teks": {
+      "type": "text"
+    }
+  }
+}

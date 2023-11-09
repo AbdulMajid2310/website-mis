@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "profil_sekolahs",
+  "info": {
+    "singularName": "profil-sekolah",
+    "pluralName": "profil-sekolahs",
+    "displayName": "Profil Sekolah",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Dashboard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "halaman.dashboard"
+    },
+    "kurikulums": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::kurikulum.kurikulum"
+    },
+    "programs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::program.program"
+    },
+    "VISI": {
+      "type": "text"
+    },
+    "MISI": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.contact"
+    }
+  }
+}

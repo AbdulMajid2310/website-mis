@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_sections_judul_dan_deskripsis",
+  "info": {
+    "displayName": "judul dan deskripsi",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Teks": {
+      "type": "text"
+    }
+  }
+}

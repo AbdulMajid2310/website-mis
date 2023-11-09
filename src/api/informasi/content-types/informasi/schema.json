@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "informasis",
+  "info": {
+    "singularName": "informasi",
+    "pluralName": "informasis",
+    "displayName": "Informasi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::slide.slide"
+    },
+    "PersyaratanUmur": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.judul-dan-deskripsi"
+    },
+    "Persyaratan2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "sections.deskripsi"
+    },
+    "Info": {
+      "displayName": "Judul",
+      "type": "component",
+      "repeatable": true,
+      "component": "halaman.judul"
+    }
+  }
+}

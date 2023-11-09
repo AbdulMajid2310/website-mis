@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_halaman_dashboards",
+  "info": {
+    "displayName": "Dashboard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Teks": {
+      "type": "string"
+    },
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Deskripsi": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "Url": {
+      "type": "text"
+    }
+  }
+}

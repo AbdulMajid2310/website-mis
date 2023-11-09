@@ -1,0 +1,7 @@
+/**
+ * nama-asrama service
+ */
+
+import { factories } from '@strapi/strapi';
+
+export default factories.createCoreService('api::nama-asrama.nama-asrama');
